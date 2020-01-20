@@ -1,0 +1,67 @@
+header {
+  text-align: center;
+  color: white;
+  background-image: url("https://www.drovers.com//sites/default/files/BT%20Fresh%20Beef%20Meat%20Case%20Grocery.JPG");
+  background-size: cover;
+  background-color: grey, 50%;
+  font-size: 80px;
+  font-family: helvetica;
+  font-variant: inherit;
+  padding: 5px;
+}
+
+.nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  background-color: #dddddd;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  font-family: helvetica;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+li a.active {
+  background-color: #white;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.main {
+  font-family: arial;
+  font-size: 16px;
+  text-align: justify;
+  margin-left: 120px;
+  padding: 15px;
+  background-color: #ff5050;
+  border-style: double;
+  border-color: #dddddd;
+  border-width: thick;
+  color: white;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  float: right;
+  margin-left: 10px;
+  width: 300px;
+  height: 190px;
+}
