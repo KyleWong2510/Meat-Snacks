@@ -1,12 +1,14 @@
+html {
+  margin: 0px;
+}
 header {
   text-align: center;
   color: white;
   background-image: url("https://www.drovers.com//sites/default/files/BT%20Fresh%20Beef%20Meat%20Case%20Grocery.JPG");
   background-size: cover;
-  background-color: grey, 50%;
+  background-color: grey;
   font-size: 80px;
   font-family: helvetica;
-  font-variant: inherit;
   padding: 5px;
 }
 
@@ -15,15 +17,16 @@ header {
   margin: 0;
   padding: 0;
   width: 120px;
-  background-color: #dddddd;
+  background-color: #b30000;
   position: fixed;
   height: 100%;
   overflow: auto;
+  color: white;
 }
 
 li a {
   display: block;
-  font-family: helvetica;
+  font-family: Arial;
   font-size: 20px;
   text-align: center;
   padding-left: 10px;
@@ -38,21 +41,23 @@ li a.active {
 }
 
 li a:hover:not(.active) {
-  background-color: #555;
+  background-color: #4d0000;
   color: white;
 }
+
 .main {
   font-family: arial;
   font-size: 16px;
   text-align: justify;
   margin-left: 120px;
   padding: 15px;
-  background-color: #ff5050;
+  background-color: #4d0000;
   border-style: double;
-  border-color: #dddddd;
+  border-color: #b30000;
   border-width: thick;
   color: white;
 }
+
 .clearfix::after {
   content: "";
   clear: both;
@@ -63,5 +68,29 @@ img {
   float: right;
   margin-left: 10px;
   width: 300px;
-  height: 190px;
+  height: 200px;
+}
+
+h4 {
+  text-align: center;
+}
+.column{
+  float:left;
+  margin: 10px;
+  width: 45%;
+  height: 30%;
+  padding: 10px 30px 10px 10px;
+
+  background-color: #b30000;
+  text-align: justify;
+}
+
+.subscribe {
+  text-align: center;
+  font-family: times;
+  font-size: 16px;
+  font-style: oblique;
+  background-color: #330000;
+  padding: 10px;
+  color: white;
 }
